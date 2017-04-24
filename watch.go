@@ -3,9 +3,9 @@ package devd
 import (
 	"time"
 
-	"github.com/cortesi/devd/livereload"
 	"github.com/cortesi/moddwatch"
 	"github.com/cortesi/termlog"
+	"github.com/russelltg/byoc-server/livereload"
 )
 
 const batchTime = time.Millisecond * 200

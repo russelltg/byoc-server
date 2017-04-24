@@ -9,9 +9,9 @@ import (
 	"sync"
 
 	"github.com/GeertJohan/go.rice"
-	"github.com/cortesi/devd/inject"
 	"github.com/cortesi/termlog"
 	"github.com/gorilla/websocket"
+	"github.com/russelltg/byoc-server/inject"
 )
 
 // Reloader triggers a reload

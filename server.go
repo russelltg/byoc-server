@@ -18,13 +18,13 @@ import (
 	"github.com/GeertJohan/go.rice"
 	"github.com/goji/httpauth"
 
-	"github.com/cortesi/devd/httpctx"
-	"github.com/cortesi/devd/inject"
-	"github.com/cortesi/devd/livereload"
-	"github.com/cortesi/devd/ricetemp"
-	"github.com/cortesi/devd/slowdown"
-	"github.com/cortesi/devd/timer"
 	"github.com/cortesi/termlog"
+	"github.com/russelltg/byoc-server/httpctx"
+	"github.com/russelltg/byoc-server/inject"
+	"github.com/russelltg/byoc-server/livereload"
+	"github.com/russelltg/byoc-server/ricetemp"
+	"github.com/russelltg/byoc-server/slowdown"
+	"github.com/russelltg/byoc-server/timer"
 )
 
 const (

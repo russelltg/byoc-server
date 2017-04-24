@@ -28,10 +28,10 @@ import (
 	"time"
 
 	"github.com/GeertJohan/go.rice"
-	"github.com/cortesi/devd/inject"
-	"github.com/cortesi/devd/ricetemp"
-	"github.com/cortesi/devd/routespec"
 	"github.com/cortesi/termlog"
+	"github.com/russelltg/byoc-server/inject"
+	"github.com/russelltg/byoc-server/ricetemp"
+	"github.com/russelltg/byoc-server/routespec"
 )
 
 // ServeFile replies to the request with the contents of the named file or directory.

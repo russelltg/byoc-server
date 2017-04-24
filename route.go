@@ -8,11 +8,11 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/cortesi/devd/fileserver"
-	"github.com/cortesi/devd/httpctx"
-	"github.com/cortesi/devd/inject"
-	"github.com/cortesi/devd/reverseproxy"
-	"github.com/cortesi/devd/routespec"
+	"github.com/russelltg/byoc-server/fileserver"
+	"github.com/russelltg/byoc-server/httpctx"
+	"github.com/russelltg/byoc-server/inject"
+	"github.com/russelltg/byoc-server/reverseproxy"
+	"github.com/russelltg/byoc-server/routespec"
 )
 
 // Endpoint is the destination of a Route - either on the filesystem or
