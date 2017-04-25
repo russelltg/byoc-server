@@ -59,8 +59,6 @@ func main() {
 
 	kingpin.Parse()
 
-	realAddr := "127.0.0.1"
-
 	hdrs := make(http.Header)
 
 	// get executable path, we want to use that dir
@@ -103,12 +101,12 @@ func main() {
 	fmt.Printf("***************** You're serving games for BYOC! Have people type %v:%v in their browser to download games!\n\n", ip, 8000)
 
 	err = dd.Serve(
-		realAddr,
+		ip,
 		8000,
 		"",
 		logger,
 		func(url string) {
-			err = webbrowser.Open(url)
+			err = webbrowser.Open("http://" + ip + ":8000")
 			if err != nil {
 				kingpin.Errorf("Failed to open browser: %s", err)
 			}
